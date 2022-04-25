@@ -2,11 +2,11 @@
 
 /**
  * Plugin Name: ca.gov Design System Headless Wordpress
- * Plugin URI: https://github.com/cagov/ca-design-system-gutenberg-blocks
+ * Plugin URI: https://github.com/cagov/cannabis-ca-gov-flywheel-integration
  * Description: Create content with the California Design System.
  * Author: Office of Digital Innovation
  * Author URI: https://digital.ca.gov
- * Version: 1.1.4
+ * Version: 1.1.7
  * License: MIT
  * License URI: https://opensource.org/licenses/MIT
  * Text Domain: ca-design-system
@@ -14,7 +14,7 @@
  * @package  CAGOVDesignSystemHeadlessWordPress
  * @author   Office of Digital Innovation <info@digital.ca.gov>
  * @license  https://opensource.org/licenses/MIT MIT
- * @link     https://github.com/cagov/ca-design-system-gutenberg-blocks#README
+ * @link     https://github.com/cagov/cannabis-ca-gov-flywheel-integration#README
  */
 
 if (!defined('ABSPATH')) {
@@ -22,7 +22,7 @@ if (!defined('ABSPATH')) {
 }
 
 // Plugin Constants.
-define('CAGOV_DESIGN_SYSTEM_HEADLESS_WORDPRESS__VERSION', '1.1.4');
+define('CAGOV_DESIGN_SYSTEM_HEADLESS_WORDPRESS__VERSION', '1.1.7');
 define('CAGOV_DESIGN_SYSTEM_HEADLESS_WORDPRESS__DIR_PATH', plugin_dir_path(__FILE__));
 define('CAGOV_DESIGN_SYSTEM_HEADLESS_WORDPRESS__ADMIN_URL', plugin_dir_url(__FILE__));
 define('CAGOV_DESIGN_SYSTEM_HEADLESS_WORDPRESS__FILE', __FILE__);
@@ -44,7 +44,7 @@ add_action('admin_init', 'cagov_design_system_headless_wordpress_admin_init');
  * 
  * This pings the latest GitHub release and makes it available to plugin users to pull down changes.
  * For scheduling updates, please refer to GitHub. 
- * https://github.com/cagov/ca-design-system-gutenberg-blocks#README 
+ * https://github.com/cagov/cannabis-ca-gov-flywheel-integration#README 
  * @NOTE will rename to https://github.com/cagov/cagov-design-system-headless-wordpress
  *
  * @category add_action( 'init', 'cagov_design_system_headless_wordpress_admin_init' );

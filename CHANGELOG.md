@@ -15,7 +15,7 @@
 * Add Content Admin role (which suffered from an issue of not being able to load capabilities in the 15 minutes we had to add this feature)
 * Merge in change to support headless rendering.
 * Refactor plugin structure to delineate current usage & future changes for planned work.
-* Include new `regulatory-outline` block. [#245](https://github.com/cagov/ca-design-system-gutenberg-blocks/issues/245)
+* Include new `regulatory-outline` block. [#245](https://github.com/cagov/cannabis-ca-gov-flywheel-integration/issues/245)
 * REST API endpoint updates to structure (aligns with headless release data mapping)
 * Events system (Event detail, Events Post List, REST support)
 * Campaign toolkit feature (`promotional-card` and `scrollable-card`)
@@ -30,7 +30,7 @@
     * `patterns/cagov-news` - Initial News posts data systems plugin, exposes data to REST API
 * Merge in change to support headless rendering.
 * Refactor plugin structure to delineate current usage & future changes for planned work.
-* Include new `regulatory-outline` block. [#245](https://github.com/cagov/ca-design-system-gutenberg-blocks/issues/245)
+* Include new `regulatory-outline` block. [#245](https://github.com/cagov/cannabis-ca-gov-flywheel-integration/issues/245)
 * REST API endpoint updates to structure (aligns with headless release data mapping)
 * Events system (Event detail, Events Post List, REST support)
 * Campaign toolkit feature (`promotional-card` and `scrollable-card`)
